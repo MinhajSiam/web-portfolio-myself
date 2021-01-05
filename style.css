@@ -35,3 +35,30 @@ section{
     font-weight: 700px;
     border-radius: 5px;
 }
+button:active{
+	transform:scale(1.1);
+}
+.hire-btn{
+	border:2px solid black;
+	color:black;
+    background-color:transparent;
+    cursor: pointer;
+    padding: 10px, 20px;
+    font-weight: 700px;
+}
+.down-cv{
+	background-color:black;
+	color:white;	
+    border:none;
+    cursor: pointer;
+    padding: 10px, 20px;
+    font-weight: 700px;
+}
+.single-block{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 60%;
+    background-color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+}
