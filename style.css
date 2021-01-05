@@ -1,0 +1,13 @@
+body{
+    font-family: 'Redressed', cursive;
+}
+h1{
+    color: orange;
+}
+h3{
+    color: slateblue;
+}
+.programming-hero-font{
+    font-weight: 100;
+    font-size: medium;
+}
