@@ -52,17 +52,7 @@ section{
     font-weight: 700px;
     border-radius: 3px;
 }
-button:active{
-	transform:scale(1.1);
-}
-.hire-btn{
-	border:2px solid black;
-	color:black;
-    background-color:transparent;
-    cursor: pointer;
-    padding: 10px, 20px;
-    font-weight: 700px;
-}
+
 .down-cv{
 	background-color:black;
 	color:white;	
@@ -92,12 +82,16 @@ h2{
 }
 .link-button-mid{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     width: 160px;
     color: white;
-    background-image: linear-gradient(360deg, lightsalmon, tomato, lightsalmon);
+    background-image: linear-gradient( white, black, black,white);
     cursor: pointer;
     padding: 10px, 20px;
-    font-weight: 700px;
+    font-weight: 100;
     border-radius: 3px;
+
+}
+p{
+    width: 100%;
 }
