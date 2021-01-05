@@ -12,8 +12,19 @@ h3{
     font-size: 30px;
     color: slateblue;
 }
-.half-width{
+.half-width-top{
     width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 2%;
+    font-size: 20px;
+}
+.student-of{
+    color: teal;
+    font-size: 12px;
+}
+.half-width-mid{
+    width: 23%;
     float: left;
     margin-left: 5%;
     padding-right: 2%;
@@ -29,11 +40,11 @@ section{
     font-size: 18px;
     width: 160px;
     color: white;
-    background-image: linear-gradient(360deg, blue, white);
+    background-image: linear-gradient(360deg, lightsalmon, tomato, lightsalmon);
     cursor: pointer;
     padding: 10px, 20px;
     font-weight: 700px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 button:active{
 	transform:scale(1.1);
@@ -61,4 +72,15 @@ button:active{
     background-color: white;
     padding-right: 25px;
     padding-left: 25px;
+}
+.block-text{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.block-border{
+    border-bottom: black solid;
+    border-image: linear-gradient(white,black);
+    border-image-slice: 3;
 }
