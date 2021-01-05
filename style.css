@@ -5,9 +5,33 @@ h1{
     color: orange;
 }
 h3{
-    color: slateblue;
+    text-align: center;
 }
 .programming-hero-font{
-    font-weight: 100;
-    font-size: medium;
+    font-weight: 400;
+    font-size: 30px;
+    color: slateblue;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 2%;
+}
+section{
+    height: 520px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+.link-button{
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 18px;
+    width: 160px;
+    color: white;
+    background-image: linear-gradient(360deg, blue, white);
+    cursor: pointer;
+    padding: 10px, 20px;
+    font-weight: 700px;
+    border-radius: 5px;
 }
