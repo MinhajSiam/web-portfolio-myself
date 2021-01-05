@@ -22,7 +22,7 @@ h3{
     padding-right: 2%;
     font-size: 20px;
 }
-half-width-top img{
+.half-width-top img{
     width: 100%;
 }
 .student-of{
@@ -36,7 +36,7 @@ half-width-top img{
     padding-right: 2%;
 }
 section{
-    height: 520px;
+    height: 550px;
     padding-bottom: 100px;
     padding-top: 10px;
 }
